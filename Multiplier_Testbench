@@ -1,0 +1,29 @@
+module test_vedic_8;
+
+    reg [7:0] a;
+    reg [7:0] b;
+
+    wire [15:0] c;
+    reg [15:0] prod;
+    integer i;
+
+    // Instantiate the Unit Under Test (UUT)
+   ArrayMultiplier uut (.a(a),.x(b), .product(c));
+
+    initial
+     begin
+    
+    	for (i=0;i<65536;i=i+1)
+    	begin
+    	a=$random;
+    	b=$random;
+    	prod= a * b;
+    	#30;
+     	if(prod!==c)
+     	$display("%t match not found for a =%d and b=%d prod=%d and c=%d ", $time, a,b,prod,c);
+     	end
+   	 
+
+    end
+ 	 
+endmodule
