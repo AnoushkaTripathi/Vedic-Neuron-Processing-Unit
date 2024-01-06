@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sat Jan  6 17:20:21 2024
+# Process ID: 24356
+# Current directory: C:/Users/HP/Desktop/100daysofrt/neuron/neuron.runs/synth_1
+# Command line: vivado.exe -log neuron.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source neuron.tcl
+# Log file: C:/Users/HP/Desktop/100daysofrt/neuron/neuron.runs/synth_1/neuron.vds
+# Journal file: C:/Users/HP/Desktop/100daysofrt/neuron/neuron.runs/synth_1\vivado.jou
+# Running On: DESKTOP-NP5PIKG, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 2, Host memory: 8496 MB
+#-----------------------------------------------------------
+source neuron.tcl -notrace
+create_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:35 . Memory (MB): peak = 468.414 ; gain = 184.797
+Command: synth_design -top neuron -part xc7a100tcsg324-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-2

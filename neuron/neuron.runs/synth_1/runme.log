@@ -1,0 +1,22 @@
+
+*** Running vivado
+    with args -log neuron.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source neuron.tcl
+
+
+ECHO is off.
+ECHO is off.
+
+****** Vivado v2023.2 (64-bit)
+  **** SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source neuron.tcl -notrace
+create_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:35 . Memory (MB): peak = 468.414 ; gain = 184.797
+Command: synth_design -top neuron -part xc7a100tcsg324-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-2
